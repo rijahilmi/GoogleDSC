@@ -13,7 +13,7 @@ The program works by following procedures. :gear:
 3. Train the ANN using the data chosen before. The amount of Epochs/iterations can be gained by setting it to a large value to make sure that the accuracy of the predicted results from ANN is good and converged.
 4. Generalize the prediction results (because the outcome of them are between 0-1 with decimals in-between) by assuming that, if the prediction result is less than 0.5, the costumer will not exit/close their bank account. If the prediction result is 0.5 or larger than 0.5, the costumer will exit/close their bank account. Finally, we can re-check the ANN accuracy using predicted-real results comparison using Confusion Matrix.
 
-## The results! :scream:
+## The results:exclamation: :scream:
 Actually, the prediction accuracy is 'good' enough to be said 'accurate' (around 86%, which is good!). But you know, 14% error is still sooooooooo big, far from the typical-standard prediction accuracy that has less than 10% error!
 I still appreciate my work though, at least it works :stuck_out_tongue_winking_eye:.
 
